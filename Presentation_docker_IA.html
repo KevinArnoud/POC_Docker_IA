@@ -1,5 +1,4 @@
-<section id="supervision">
-        </section><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -354,7 +353,7 @@
     </header>
     
     <div class="container">
-        <section>
+        <section id="introduction">
             <h2>📋 Présentation du projet</h2>
             
             <p>Ce projet est la démonstration parfaite qu'avec les outils d'IA modernes et un bon prompt engineering, <strong>n'importe qui peut créer une application DevOps complète</strong> en un temps record : <strong>seulement 3 heures</strong> pour ce chatbot IA entièrement conteneurisé.</p>
@@ -389,7 +388,7 @@
             </div>
         </section>
         
-        <section id="mon-parcours">
+        <section id="realisation">
             <h2>⏱️ 3 heures pour un projet DevOps complet</h2>
             
             <p>Ce projet démontre l'efficacité incroyable du prompt engineering pour accélérer le développement :</p>
@@ -424,7 +423,12 @@
         
         <section id="architecture">
             <h2>🏗️ Architecture technique</h2>
-            <p>Un des aspects les plus intimidants du DevOps pour moi était la création d'une architecture de microservices. Grâce au prompt engineering, j'ai pu concevoir et implémenter cette structure complexe :</p>
+            <p>Un des aspects les plus intimidants du DevOps pour un débutant est la création d'une architecture de microservices. Grâce au prompt engineering, j'ai pu concevoir et implémenter cette structure complexe en 30 minutes :</p>
+            
+            <div class="diagram">
+                <img src="/POC_Docker_IA/images/ChatGPT%20Image%2028%20avr.%202025%2C%2010_25_23.png" alt="Architecture des conteneurs Docker" style="max-width: 100%; height: auto;">
+                <p><i>Diagramme: La structure microservices réalisée en moins de 3 heures grâce au prompt engineering</i></p>
+            </div>
             
             <div class="arch-container">
                 <div class="arch-service">
@@ -453,55 +457,14 @@
                 </div>
             </div>
             
-            <div class="diagram">
-                <img src="/POC_Docker_IA/images/ChatGPT%20Image%2028%20avr.%202025%2C%2010_25_23.png" alt="Architecture des conteneurs Docker" style="max-width: 100%; height: auto;">
-                <p><i>Diagramme: La structure microservices réalisée en moins de 3 heures grâce au prompt engineering</i></p>
-            </div>
-            
             <blockquote>
-                Chaque conteneur dans cette architecture représentait un défi d'apprentissage pour moi. Grâce au prompt engineering, j'ai pu comprendre comment ils interagissent entre eux et les configurer correctement.
+                Chaque conteneur dans cette architecture a été configuré grâce à des prompts ciblés, sans avoir à plonger dans la documentation technique pendant des heures.
             </blockquote>
-        </section>
-        
-        <section id="prompt-engineering">
-            <h2>🔍 Le prompt engineering en action</h2>
-            
-            <p>La clé de la réussite de ce projet a été ma façon d'interagir avec les modèles d'IA. Voici comment j'ai utilisé le prompt engineering pour surmonter les obstacles techniques :</p>
-            
-            <h3>Exemples de prompts efficaces que j'ai utilisés</h3>
-            
-            <div class="command-item">
-                <div class="command-title">Pour comprendre Docker et les microservices</div>
-                <p>"Explique-moi l'architecture d'une application chatbot utilisant Docker, avec des microservices pour chaque composant (frontend, base de données, monitoring). Fournis des exemples de fichiers docker-compose.yml et Dockerfile adaptés à ce cas d'usage."</p>
-            </div>
-            
-            <div class="command-item">
-                <div class="command-title">Pour configurer la surveillance</div>
-                <p>"Comment puis-je intégrer Prometheus et Grafana pour surveiller une application Redis dans un environnement Docker ? Montre-moi les fichiers de configuration et explique comment tout connecter."</p>
-            </div>
-            
-            <div class="command-item">
-                <div class="command-title">Pour optimiser la sécurité</div>
-                <p>"Quelles sont les meilleures pratiques de sécurité pour une application Docker multi-conteneurs ? Comment implémenter un utilisateur non-root et minimiser la surface d'attaque ?"</p>
-            </div>
-            
-            <h3>Ce que le prompt engineering m'a apporté</h3>
-            <ul>
-                <li>Une compréhension progressive des concepts DevOps complexes</li>
-                <li>Des solutions adaptées à mon niveau de compétence actuel</li>
-                <li>La possibilité d'itérer rapidement et d'apprendre de mes erreurs</li>
-                <li>Un moyen d'acquérir des connaissances pratiques sans formation formelle</li>
-            </ul>
-            
-            <div class="highlight-box">
-                <h3>Le prompt engineering comme accélérateur</h3>
-                <p>En utilisant des prompts bien formulés, j'ai pu générer et comprendre du code DevOps complexe en quelques minutes au lieu de passer des semaines à étudier la documentation.</p>
-            </div>
         </section>
         
         <section id="technologies">
             <h2>💻 Stack technologique</h2>
-            <p>À travers ce projet, j'ai pu me familiariser avec un ensemble impressionnant de technologies que je n'avais jamais utilisées auparavant :</p>
+            <p>À travers ce projet, j'ai pu mettre en œuvre un ensemble impressionnant de technologies avancées :</p>
             
             <div class="tech-stack">
                 <span class="tech-badge">Python 3.11</span>
@@ -551,26 +514,35 @@
             </table>
         </section>
         
-        <section id="fonctionnement">
-            <h2>⚙️ Comment ça fonctionne</h2>
+        <section id="application">
+            <h2>📱 L'application en action</h2>
             
-            <h3>L'application en action</h3>
-            <p>Mon chatbot IA est une application web intuitive construite avec Streamlit :</p>
+            <p>Le cœur du projet est une application de chatbot IA fonctionnelle, permettant aux utilisateurs d'interagir avec un modèle GPT via une interface simple et intuitive.</p>
+            
+            <div class="diagram">
+                <img src="/POC_Docker_IA/images/appli_en_action.png" alt="Application en action" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                <p><i>L'application en action : réponse à une question sur les "super-pouvoirs" de Docker</i></p>
+            </div>
+            
+            <h3>Fonctionnalités principales</h3>
             <ul>
-                <li>L'utilisateur saisit une question dans l'interface</li>
-                <li>La requête est transmise à l'API OpenAI via la bibliothèque Python</li>
-                <li>La réponse est affichée et stockée dans Redis pour constituer un historique</li>
-                <li>Tout le trafic passe par NGINX pour plus de sécurité et de performance</li>
-                <li>Prometheus et Grafana surveillent en permanence les performances du système</li>
+                <li>Interface utilisateur simple et intuitive</li>
+                <li>Connexion sécurisée à l'API OpenAI</li>
+                <li>Stockage de l'historique des conversations dans Redis</li>
+                <li>Accessible via une URL standard grâce au proxy NGINX</li>
+                <li>Possibilité de consulter l'historique des échanges</li>
             </ul>
             
             <div class="diagram">
-                <img src="/POC_Docker_IA/images/appli_en_action.png" alt="Interface utilisateur du chatbot" style="max-width: 100%; height: auto;">
-                <p><i>Capture d'écran: L'interface utilisateur du chatbot développée en quelques heures</i></p>
+                <img src="/POC_Docker_IA/images/2025-04-28_10_09_36-Streamlit%20%E2%80%94%20Mozilla%20Firefox.png" alt="Interface utilisateur du chatbot" style="max-width: 100%; height: auto; border-radius: 8px;">
+                <p><i>Interface Streamlit : simple, efficace et développée en quelques heures</i></p>
             </div>
+        </section>
+        
+        <section id="administration">
+            <h2>🔧 Administration et déploiement</h2>
             
-            <h3>Les commandes utiles</h3>
-            <p>J'ai créé un script <code>make.bat</code> pour simplifier l'utilisation du projet :</p>
+            <p>Pour simplifier la gestion du projet, j'ai créé un script <code>make.bat</code> qui permet de contrôler l'ensemble des conteneurs en une seule commande :</p>
             
             <div class="commands">
                 <div class="command-item">
@@ -594,57 +566,65 @@
                     <code>./make.bat clean</code>
                 </div>
             </div>
+            
+            <p>Ce script généré grâce au prompt engineering encapsule les commandes docker-compose complexes derrière une interface simple et intuitive, rendant le projet accessible même aux débutants.</p>
         </section>
         
-        <section id="defis">
-            <h2>🧩 Les défis rencontrés et surmontés</h2>
+        <section id="monitoring">
+            <h2>📊 Monitoring et supervision</h2>
             
-            <p>Ce projet n'a pas été sans obstacles. Voici les principaux défis que j'ai dû surmonter et comment le prompt engineering m'a aidé :</p>
+            <p>Un aspect crucial de tout projet DevOps professionnel est la mise en place d'une surveillance en temps réel. J'ai intégré Prometheus et Grafana pour monitorer tous les aspects de l'application :</p>
             
-            <div class="features">
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Communication entre conteneurs</h3>
-                    <p>Comprendre comment les conteneurs Docker communiquent entre eux était complexe. Grâce à des prompts ciblés, j'ai pu saisir les concepts de réseaux Docker.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📊</div>
-                    <h3>Configuration du monitoring</h3>
-                    <p>Connecter Prometheus, Redis Exporter et Grafana semblait intimidant. Le prompt engineering m'a permis d'obtenir des configurations fonctionnelles.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔐</div>
-                    <h3>Sécurité et bonnes pratiques</h3>
-                    <p>Implémenter des utilisateurs non-root et comprendre les vulnérabilités était un défi majeur que j'ai surmonté en posant les bonnes questions.</p>
-                </div>
+            <div class="diagram">
+                <img src="/POC_Docker_IA/images/Redis_Grafana.png" alt="Dashboard Grafana" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                <p><i>Dashboard Grafana : Surveillance en temps réel des performances de Redis et de l'application</i></p>
             </div>
             
-            <blockquote>
-                À chaque obstacle, au lieu d'abandonner, j'ai reformulé mes questions et affiné mes prompts jusqu'à obtenir les réponses dont j'avais besoin pour avancer.
-            </blockquote>
+            <p>Ce tableau de bord Grafana offre une visibilité complète sur :</p>
+            <ul>
+                <li><strong>Mémoire Redis utilisée</strong> : Suivi précis de la consommation mémoire</li>
+                <li><strong>Clients connectés</strong> : Nombre d'utilisateurs actifs sur l'application</li>
+                <li><strong>Uptime</strong> : Durée de fonctionnement des services sans interruption</li>
+                <li><strong>Commandes traitées</strong> : Volume de requêtes gérées par Redis</li>
+                <li><strong>Statut des services</strong> : Surveillance du bon fonctionnement de tous les composants</li>
+            </ul>
+            
+            <p>La configuration complète de ce système de monitoring a pris moins de 30 minutes grâce au prompt engineering - une tâche qui aurait normalement nécessité des jours d'apprentissage et d'expérimentation.</p>
         </section>
         
-        <section id="lecons">
-            <h2>📚 Les leçons apprises</h2>
+        <section id="prompt-engineering">
+            <h2>🧠 Le prompt engineering comme outil clé</h2>
             
-            <p>Ce projet m'a enseigné bien plus que des compétences techniques. J'ai appris :</p>
-            
-            <h3>1. L'IA comme outil d'apprentissage</h3>
-            <p>L'intelligence artificielle, lorsqu'elle est sollicitée correctement, peut être un professeur particulier extraordinaire, adaptant les explications à votre niveau de compréhension actuel.</p>
-            
-            <h3>2. L'importance de la persévérance</h3>
-            <p>Les obstacles techniques ne sont pas insurmontables si on les décompose en petits problèmes et qu'on cherche des solutions étape par étape.</p>
-            
-            <h3>3. La valeur du prompt engineering</h3>
-            <p>Savoir formuler ses questions est une compétence précieuse. J'ai découvert que la qualité de mes prompts déterminait directement la qualité des réponses et donc ma capacité à progresser.</p>
-            
-            <h3>4. Ne pas se limiter aux étiquettes</h3>
-            <p>On m'avait dit que je n'avais pas les compétences DevOps nécessaires, mais ce projet prouve qu'avec la bonne approche, les barrières traditionnelles à l'apprentissage peuvent être surmontées.</p>
+            <p>La réussite de ce projet en seulement 3 heures repose entièrement sur l'utilisation stratégique du prompt engineering.</p>
             
             <div class="highlight-box">
-                <h3>Ma plus grande découverte</h3>
-                <p>Ce qui ressemblait à un mur infranchissable (le manque d'expérience DevOps) s'est transformé en une série de petites marches franchissables grâce au prompt engineering et à l'IA. Cette approche peut s'appliquer à pratiquement n'importe quel domaine technique.</p>
+                <h3>Le prompt engineering comme accélérateur</h3>
+                <p>En utilisant des prompts bien formulés, j'ai pu générer et comprendre du code DevOps complexe en quelques minutes au lieu de passer des semaines à étudier la documentation.</p>
             </div>
+            
+            <h3>Exemples de prompts efficaces que j'ai utilisés</h3>
+            
+            <div class="command-item">
+                <div class="command-title">Pour l'architecture microservices</div>
+                <p>"Crée une architecture microservices complète pour un chatbot IA avec Docker, incluant un proxy NGINX, une application Streamlit, Redis pour le stockage et Prometheus/Grafana pour le monitoring."</p>
+            </div>
+            
+            <div class="command-item">
+                <div class="command-title">Pour générer le docker-compose.yml</div>
+                <p>"Génère un fichier docker-compose.yml complet pour cette architecture microservices avec les healthchecks appropriés et un système de volumes persistants."</p>
+            </div>
+            
+            <div class="command-item">
+                <div class="command-title">Pour l'application Streamlit</div>
+                <p>"Écris une application Streamlit complète qui se connecte à l'API OpenAI et stocke l'historique des conversations dans Redis."</p>
+            </div>
+            
+            <div class="command-item">
+                <div class="command-title">Pour la configuration de monitoring</div>
+                <p>"Crée un fichier de configuration Prometheus et un dashboard Grafana pour surveiller Redis et l'application Streamlit dans un environnement Docker."</p>
+            </div>
+            
+            <p>Cette approche m'a permis de franchir les barrières traditionnelles qui auraient normalement nécessité des années d'expérience DevOps.</p>
         </section>
         
         <section id="conclusion">
@@ -738,3 +718,4 @@
         });
     </script>
 </body>
+</html>
